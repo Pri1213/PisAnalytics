@@ -1,0 +1,650 @@
+[
+  {
+    "country": "China",
+    "OverallPisaScore2022": 1605,
+    "PISAScoresMathScore2022": 552,
+    "PISAScoresScienceScore2022": 543,
+    "PISAScoresReadingScore2022": 510,
+    "PISAScoresOverallScore2018": 1736
+  },
+  {
+    "country": "United States",
+    "OverallPisaScore2022": 1468,
+    "PISAScoresMathScore2022": 465,
+    "PISAScoresScienceScore2022": 499,
+    "PISAScoresReadingScore2022": 504,
+    "PISAScoresOverallScore2018": 1485
+  },
+  {
+    "country": "Indonesia",
+    "OverallPisaScore2022": 1108,
+    "PISAScoresMathScore2022": 366,
+    "PISAScoresScienceScore2022": 383,
+    "PISAScoresReadingScore2022": 359,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Brazil",
+    "OverallPisaScore2022": 1192,
+    "PISAScoresMathScore2022": 379,
+    "PISAScoresScienceScore2022": 403,
+    "PISAScoresReadingScore2022": 410,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Mexico",
+    "OverallPisaScore2022": 1220,
+    "PISAScoresMathScore2022": 395,
+    "PISAScoresScienceScore2022": 410,
+    "PISAScoresReadingScore2022": 415,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Japan",
+    "OverallPisaScore2022": 1599,
+    "PISAScoresMathScore2022": 536,
+    "PISAScoresScienceScore2022": 547,
+    "PISAScoresReadingScore2022": 516,
+    "PISAScoresOverallScore2018": 1560
+  },
+  {
+    "country": "Philippines",
+    "OverallPisaScore2022": 1058,
+    "PISAScoresMathScore2022": 355,
+    "PISAScoresScienceScore2022": 356,
+    "PISAScoresReadingScore2022": 347,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Vietnam",
+    "OverallPisaScore2022": 1403,
+    "PISAScoresMathScore2022": 469,
+    "PISAScoresScienceScore2022": 472,
+    "PISAScoresReadingScore2022": 462,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Turkey",
+    "OverallPisaScore2022": 1385,
+    "PISAScoresMathScore2022": 453,
+    "PISAScoresScienceScore2022": 476,
+    "PISAScoresReadingScore2022": 456,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Germany",
+    "OverallPisaScore2022": 1447,
+    "PISAScoresMathScore2022": 475,
+    "PISAScoresScienceScore2022": 492,
+    "PISAScoresReadingScore2022": 480,
+    "PISAScoresOverallScore2018": 1501
+  },
+  {
+    "country": "Thailand",
+    "OverallPisaScore2022": 1182,
+    "PISAScoresMathScore2022": 394,
+    "PISAScoresScienceScore2022": 409,
+    "PISAScoresReadingScore2022": 379,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "United Kingdom",
+    "OverallPisaScore2022": 1483,
+    "PISAScoresMathScore2022": 489,
+    "PISAScoresScienceScore2022": 500,
+    "PISAScoresReadingScore2022": 494,
+    "PISAScoresOverallScore2018": 1511
+  },
+  {
+    "country": "France",
+    "OverallPisaScore2022": 1435,
+    "PISAScoresMathScore2022": 474,
+    "PISAScoresScienceScore2022": 487,
+    "PISAScoresReadingScore2022": 474,
+    "PISAScoresOverallScore2018": 1481
+  },
+  {
+    "country": "Italy",
+    "OverallPisaScore2022": 1430,
+    "PISAScoresMathScore2022": 471,
+    "PISAScoresScienceScore2022": 477,
+    "PISAScoresReadingScore2022": 482,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Colombia",
+    "OverallPisaScore2022": 1203,
+    "PISAScoresMathScore2022": 383,
+    "PISAScoresScienceScore2022": 411,
+    "PISAScoresReadingScore2022": 409,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "South Korea",
+    "OverallPisaScore2022": 1570,
+    "PISAScoresMathScore2022": 527,
+    "PISAScoresScienceScore2022": 528,
+    "PISAScoresReadingScore2022": 515,
+    "PISAScoresOverallScore2018": 1559
+  },
+  {
+    "country": "Spain",
+    "OverallPisaScore2022": 1432,
+    "PISAScoresMathScore2022": 473,
+    "PISAScoresScienceScore2022": 485,
+    "PISAScoresReadingScore2022": 474,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Argentina",
+    "OverallPisaScore2022": 1185,
+    "PISAScoresMathScore2022": 378,
+    "PISAScoresScienceScore2022": 406,
+    "PISAScoresReadingScore2022": 401,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Canada",
+    "OverallPisaScore2022": 1519,
+    "PISAScoresMathScore2022": 497,
+    "PISAScoresScienceScore2022": 515,
+    "PISAScoresReadingScore2022": 507,
+    "PISAScoresOverallScore2018": 1550
+  },
+  {
+    "country": "Poland",
+    "OverallPisaScore2022": 1477,
+    "PISAScoresMathScore2022": 489,
+    "PISAScoresScienceScore2022": 499,
+    "PISAScoresReadingScore2022": 489,
+    "PISAScoresOverallScore2018": 1539
+  },
+  {
+    "country": "Morocco",
+    "OverallPisaScore2022": 1069,
+    "PISAScoresMathScore2022": 365,
+    "PISAScoresScienceScore2022": 365,
+    "PISAScoresReadingScore2022": 339,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Ukraine",
+    "OverallPisaScore2022": 1319,
+    "PISAScoresMathScore2022": 441,
+    "PISAScoresScienceScore2022": 450,
+    "PISAScoresReadingScore2022": 428,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Uzbekistan",
+    "OverallPisaScore2022": 1055,
+    "PISAScoresMathScore2022": 364,
+    "PISAScoresScienceScore2022": 355,
+    "PISAScoresReadingScore2022": 336,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Malaysia",
+    "OverallPisaScore2022": 1213,
+    "PISAScoresMathScore2022": 409,
+    "PISAScoresScienceScore2022": 416,
+    "PISAScoresReadingScore2022": 388,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Peru",
+    "OverallPisaScore2022": 1207,
+    "PISAScoresMathScore2022": 391,
+    "PISAScoresScienceScore2022": 408,
+    "PISAScoresReadingScore2022": 408,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Saudi Arabia",
+    "OverallPisaScore2022": 1162,
+    "PISAScoresMathScore2022": 389,
+    "PISAScoresScienceScore2022": 390,
+    "PISAScoresReadingScore2022": 383,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Australia",
+    "OverallPisaScore2022": 1492,
+    "PISAScoresMathScore2022": 487,
+    "PISAScoresScienceScore2022": 507,
+    "PISAScoresReadingScore2022": 498,
+    "PISAScoresOverallScore2018": 1497
+  },
+  {
+    "country": "Taiwan",
+    "OverallPisaScore2022": 1599,
+    "PISAScoresMathScore2022": 547,
+    "PISAScoresScienceScore2022": 537,
+    "PISAScoresReadingScore2022": 515,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Kazakhstan",
+    "OverallPisaScore2022": 1234,
+    "PISAScoresMathScore2022": 425,
+    "PISAScoresScienceScore2022": 423,
+    "PISAScoresReadingScore2022": 386,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Chile",
+    "OverallPisaScore2022": 1304,
+    "PISAScoresMathScore2022": 412,
+    "PISAScoresScienceScore2022": 444,
+    "PISAScoresReadingScore2022": 448,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Romania",
+    "OverallPisaScore2022": 1284,
+    "PISAScoresMathScore2022": 428,
+    "PISAScoresScienceScore2022": 428,
+    "PISAScoresReadingScore2022": 428,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Guatemala",
+    "OverallPisaScore2022": 1091,
+    "PISAScoresMathScore2022": 344,
+    "PISAScoresScienceScore2022": 373,
+    "PISAScoresReadingScore2022": 374,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Netherlands",
+    "OverallPisaScore2022": 1440,
+    "PISAScoresMathScore2022": 493,
+    "PISAScoresScienceScore2022": 488,
+    "PISAScoresReadingScore2022": 459,
+    "PISAScoresOverallScore2018": 1507
+  },
+  {
+    "country": "Cambodia",
+    "OverallPisaScore2022": 1012,
+    "PISAScoresMathScore2022": 336,
+    "PISAScoresScienceScore2022": 347,
+    "PISAScoresReadingScore2022": 329,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Belgium",
+    "OverallPisaScore2022": 1459,
+    "PISAScoresMathScore2022": 489,
+    "PISAScoresScienceScore2022": 491,
+    "PISAScoresReadingScore2022": 479,
+    "PISAScoresOverallScore2018": 1500
+  },
+  {
+    "country": "Jordan",
+    "OverallPisaScore2022": 1078,
+    "PISAScoresMathScore2022": 361,
+    "PISAScoresScienceScore2022": 375,
+    "PISAScoresReadingScore2022": 342,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Dominican Republic",
+    "OverallPisaScore2022": 1050,
+    "PISAScoresMathScore2022": 339,
+    "PISAScoresScienceScore2022": 360,
+    "PISAScoresReadingScore2022": 351,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "United Arab Emirates",
+    "OverallPisaScore2022": 1280,
+    "PISAScoresMathScore2022": 431,
+    "PISAScoresScienceScore2022": 432,
+    "PISAScoresReadingScore2022": 417,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Czech Republic",
+    "OverallPisaScore2022": 1474,
+    "PISAScoresMathScore2022": 487,
+    "PISAScoresScienceScore2022": 498,
+    "PISAScoresReadingScore2022": 489,
+    "PISAScoresOverallScore2018": 1486
+  },
+  {
+    "country": "Sweden",
+    "OverallPisaScore2022": 1463,
+    "PISAScoresMathScore2022": 482,
+    "PISAScoresScienceScore2022": 494,
+    "PISAScoresReadingScore2022": 487,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Portugal",
+    "OverallPisaScore2022": 1433,
+    "PISAScoresMathScore2022": 472,
+    "PISAScoresScienceScore2022": 484,
+    "PISAScoresReadingScore2022": 477,
+    "PISAScoresOverallScore2018": 1476
+  },
+  {
+    "country": "Azerbaijan",
+    "OverallPisaScore2022": 1142,
+    "PISAScoresMathScore2022": 397,
+    "PISAScoresScienceScore2022": 380,
+    "PISAScoresReadingScore2022": 365,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Greece",
+    "OverallPisaScore2022": 1309,
+    "PISAScoresMathScore2022": 430,
+    "PISAScoresScienceScore2022": 441,
+    "PISAScoresReadingScore2022": 438,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Hungary",
+    "OverallPisaScore2022": 1432,
+    "PISAScoresMathScore2022": 473,
+    "PISAScoresScienceScore2022": 486,
+    "PISAScoresReadingScore2022": 473,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Israel",
+    "OverallPisaScore2022": 1397,
+    "PISAScoresMathScore2022": 458,
+    "PISAScoresScienceScore2022": 465,
+    "PISAScoresReadingScore2022": 474,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Austria",
+    "OverallPisaScore2022": 1458,
+    "PISAScoresMathScore2022": 487,
+    "PISAScoresScienceScore2022": 491,
+    "PISAScoresReadingScore2022": 480,
+    "PISAScoresOverallScore2018": 1473
+  },
+  {
+    "country": "Switzerland",
+    "OverallPisaScore2022": 1494,
+    "PISAScoresMathScore2022": 508,
+    "PISAScoresScienceScore2022": 503,
+    "PISAScoresReadingScore2022": 483,
+    "PISAScoresOverallScore2018": 1494
+  },
+  {
+    "country": "Hong Kong",
+    "OverallPisaScore2022": 1560,
+    "PISAScoresMathScore2022": 540,
+    "PISAScoresScienceScore2022": 520,
+    "PISAScoresReadingScore2022": 500,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Paraguay",
+    "OverallPisaScore2022": 1079,
+    "PISAScoresMathScore2022": 338,
+    "PISAScoresScienceScore2022": 368,
+    "PISAScoresReadingScore2022": 373,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Bulgaria",
+    "OverallPisaScore2022": 1242,
+    "PISAScoresMathScore2022": 417,
+    "PISAScoresScienceScore2022": 421,
+    "PISAScoresReadingScore2022": 404,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Serbia",
+    "OverallPisaScore2022": 1327,
+    "PISAScoresMathScore2022": 440,
+    "PISAScoresScienceScore2022": 447,
+    "PISAScoresReadingScore2022": 440,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "El Salvador",
+    "OverallPisaScore2022": 1081,
+    "PISAScoresMathScore2022": 343,
+    "PISAScoresScienceScore2022": 373,
+    "PISAScoresReadingScore2022": 365,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Denmark",
+    "OverallPisaScore2022": 1472,
+    "PISAScoresMathScore2022": 489,
+    "PISAScoresScienceScore2022": 494,
+    "PISAScoresReadingScore2022": 489,
+    "PISAScoresOverallScore2018": 1503
+  },
+  {
+    "country": "Singapore",
+    "OverallPisaScore2022": 1679,
+    "PISAScoresMathScore2022": 575,
+    "PISAScoresScienceScore2022": 561,
+    "PISAScoresReadingScore2022": 543,
+    "PISAScoresOverallScore2018": 1669
+  },
+  {
+    "country": "Finland",
+    "OverallPisaScore2022": 1485,
+    "PISAScoresMathScore2022": 484,
+    "PISAScoresScienceScore2022": 511,
+    "PISAScoresReadingScore2022": 490,
+    "PISAScoresOverallScore2018": 1549
+  },
+  {
+    "country": "Norway",
+    "OverallPisaScore2022": 1423,
+    "PISAScoresMathScore2022": 468,
+    "PISAScoresScienceScore2022": 478,
+    "PISAScoresReadingScore2022": 477,
+    "PISAScoresOverallScore2018": 1490
+  },
+  {
+    "country": "Slovakia",
+    "OverallPisaScore2022": 1373,
+    "PISAScoresMathScore2022": 464,
+    "PISAScoresScienceScore2022": 462,
+    "PISAScoresReadingScore2022": 447,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Palestine",
+    "OverallPisaScore2022": 1084,
+    "PISAScoresMathScore2022": 366,
+    "PISAScoresScienceScore2022": 369,
+    "PISAScoresReadingScore2022": 349,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Ireland",
+    "OverallPisaScore2022": 1512,
+    "PISAScoresMathScore2022": 492,
+    "PISAScoresScienceScore2022": 504,
+    "PISAScoresReadingScore2022": 516,
+    "PISAScoresOverallScore2018": 1514
+  },
+  {
+    "country": "New Zealand",
+    "OverallPisaScore2022": 1484,
+    "PISAScoresMathScore2022": 479,
+    "PISAScoresScienceScore2022": 504,
+    "PISAScoresReadingScore2022": 501,
+    "PISAScoresOverallScore2018": 1508
+  },
+  {
+    "country": "Costa Rica",
+    "OverallPisaScore2022": 1211,
+    "PISAScoresMathScore2022": 385,
+    "PISAScoresScienceScore2022": 411,
+    "PISAScoresReadingScore2022": 415,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Panama",
+    "OverallPisaScore2022": 1137,
+    "PISAScoresMathScore2022": 357,
+    "PISAScoresScienceScore2022": 388,
+    "PISAScoresReadingScore2022": 392,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Croatia",
+    "OverallPisaScore2022": 1421,
+    "PISAScoresMathScore2022": 463,
+    "PISAScoresScienceScore2022": 483,
+    "PISAScoresReadingScore2022": 475,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Georgia",
+    "OverallPisaScore2022": 1148,
+    "PISAScoresMathScore2022": 390,
+    "PISAScoresScienceScore2022": 384,
+    "PISAScoresReadingScore2022": 374,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Mongolia",
+    "OverallPisaScore2022": 1215,
+    "PISAScoresMathScore2022": 425,
+    "PISAScoresScienceScore2022": 412,
+    "PISAScoresReadingScore2022": 378,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Uruguay",
+    "OverallPisaScore2022": 1274,
+    "PISAScoresMathScore2022": 409,
+    "PISAScoresScienceScore2022": 435,
+    "PISAScoresReadingScore2022": 430,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Qatar",
+    "OverallPisaScore2022": 1265,
+    "PISAScoresMathScore2022": 414,
+    "PISAScoresScienceScore2022": 432,
+    "PISAScoresReadingScore2022": 419,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Moldova",
+    "OverallPisaScore2022": 1242,
+    "PISAScoresMathScore2022": 414,
+    "PISAScoresScienceScore2022": 417,
+    "PISAScoresReadingScore2022": 411,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Lithuania",
+    "OverallPisaScore2022": 1431,
+    "PISAScoresMathScore2022": 475,
+    "PISAScoresScienceScore2022": 484,
+    "PISAScoresReadingScore2022": 472,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Jamaica",
+    "OverallPisaScore2022": 1190,
+    "PISAScoresMathScore2022": 377,
+    "PISAScoresScienceScore2022": 403,
+    "PISAScoresReadingScore2022": 410,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Albania",
+    "OverallPisaScore2022": 1102,
+    "PISAScoresMathScore2022": 368,
+    "PISAScoresScienceScore2022": 376,
+    "PISAScoresReadingScore2022": 358,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Slovenia",
+    "OverallPisaScore2022": 1454,
+    "PISAScoresMathScore2022": 485,
+    "PISAScoresScienceScore2022": 500,
+    "PISAScoresReadingScore2022": 469,
+    "PISAScoresOverallScore2018": 1511
+  },
+  {
+    "country": "Latvia",
+    "OverallPisaScore2022": 1452,
+    "PISAScoresMathScore2022": 483,
+    "PISAScoresScienceScore2022": 494,
+    "PISAScoresReadingScore2022": 475,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "North Macedonia",
+    "OverallPisaScore2022": 1128,
+    "PISAScoresMathScore2022": 389,
+    "PISAScoresScienceScore2022": 380,
+    "PISAScoresReadingScore2022": 359,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Estonia",
+    "OverallPisaScore2022": 1547,
+    "PISAScoresMathScore2022": 510,
+    "PISAScoresScienceScore2022": 526,
+    "PISAScoresReadingScore2022": 511,
+    "PISAScoresOverallScore2018": 1579
+  },
+  {
+    "country": "Cyprus",
+    "OverallPisaScore2022": 1210,
+    "PISAScoresMathScore2022": 418,
+    "PISAScoresScienceScore2022": 411,
+    "PISAScoresReadingScore2022": 381,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Montenegro",
+    "OverallPisaScore2022": 1214,
+    "PISAScoresMathScore2022": 406,
+    "PISAScoresScienceScore2022": 403,
+    "PISAScoresReadingScore2022": 405,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Malta",
+    "OverallPisaScore2022": 1377,
+    "PISAScoresMathScore2022": 466,
+    "PISAScoresScienceScore2022": 466,
+    "PISAScoresReadingScore2022": 445,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Brunei",
+    "OverallPisaScore2022": 1317,
+    "PISAScoresMathScore2022": 442,
+    "PISAScoresScienceScore2022": 446,
+    "PISAScoresReadingScore2022": 429,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Iceland",
+    "OverallPisaScore2022": 1342,
+    "PISAScoresMathScore2022": 459,
+    "PISAScoresScienceScore2022": 447,
+    "PISAScoresReadingScore2022": 436,
+    "PISAScoresOverallScore2018": null
+  },
+  {
+    "country": "Total",
+    "OverallPisaScore2022": null,
+    "PISAScoresMathScore2022": 438.6875,
+    "PISAScoresScienceScore2022": 447.9875,
+    "PISAScoresReadingScore2022": 436.1875,
+    "PISAScoresOverallScore2018": 1528.25
+  }
+]

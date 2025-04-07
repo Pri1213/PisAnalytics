@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="../styles/quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div id="questionContainer" style="display: none;">
+        <p id="questionCategory"></p>
+        <div class="container">
+            <div class="card">
+                <p id="questionText"></p>
+                <div class="slider-container">
+                    <input type="range" id="questionSlider" min="1" max="5" value="3" class="slider">
+                    <div class="slider-labels">
+                        <span>Strongly Disagree</span>
+                        <span>Disagree</span>
+                        <span>Neither Agree nor Disagree</span>
+                        <span>Agree</span>
+                        <span>Strongly Agree</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btnwrap">
+            <button id="nextButton">Next</button>
+            <button id="submitButton" style="display: none;">Submit</button>
+        </div>
+    </div>
+
+    <div id="titleContainer">
+        <span class="text">Take a quiz !</span>
+    </div>
+
+    <div id="introduction">
+        <div class="content">
+            <p>Embark on a journey to uncover your potential with our concise quiz designed to forecast your scores in Mathematics and Science. Powered by an advanced machine learning model, your responses are meticulously analyzed to provide insightful predictions. It's important to note, however, that while our model leverages sophisticated algorithms, outliers may influence individual outcomes. As with any predictive tool, results are estimations based on aggregated data from various academic indicators. The complexities of academic achievement encompass multifaceted factors beyond those captured here, emphasizing the nuanced nature of educational success.</p>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <button id="button">Start quiz</button>
+    </div>
+
+    <script src="../scripts/script_quiz.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const slider = document.querySelector('.slider');
+
+            slider.addEventListener('input', function() {
+                const value = (this.value - this.min) / (this.max - this.min) * 100;
+                this.style.background = `linear-gradient(to right, #ff0065 ${value}%, #d3d3d3 ${value}%)`;
+            });
+        });
+    </script>
+</body>
+</html>

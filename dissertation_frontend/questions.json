@@ -1,0 +1,129 @@
+{
+    "Self Control": [
+        {
+            "code": "ST309Q01JA",
+            "question": "I am careful with what I say to others."
+        },
+        {
+            "code": "ST309Q02JA",
+            "question": "I get easily distracted."
+        },
+        {
+            "code": "ST309Q03JA",
+            "question": "I say the first thing that comes to my mind."
+        },
+        {
+            "code": "ST309Q04JA",
+            "question": "I like to make sure there are no mistakes."
+        },
+        {
+            "code": "ST309Q05JA",
+            "question": "I carefully check homework before turning it in."
+        },
+        {
+            "code": "ST309Q06JA",
+            "question": "I stop to think before acting."
+        },
+        {
+            "code": "ST309Q07JA",
+            "question": "I rush into activities without thinking."
+        },
+        {
+            "code": "ST309Q08JA",
+            "question": "I am more impulsive than most people I know."
+        },
+        {
+            "code": "ST309Q09JA",
+            "question": "I am more impulsive than most people I know."
+        },
+        {
+            "code": "ST309Q10JA",
+            "question": "I think carefully before doing something."
+        }
+    ],
+    "Assertiveness": [
+        {
+            "code": "ST305Q01JA",
+            "question": "I am comfortable with taking the lead role in a group."
+        },
+        {
+            "code": "ST305Q02JA",
+            "question": "I know how to convince others to do what I want."
+        },
+        {
+            "code": "ST305Q03JA",
+            "question": "I enjoy leading others."
+        },
+        {
+            "code": "ST305Q04JA",
+            "question": "I keep my opinion to myself in group discussions."
+        },
+        {
+            "code": "ST305Q05JA",
+            "question": "I speak up to others about things that matter to me."
+        },
+        {
+            "code": "ST305Q06JA",
+            "question": "I speak up to others about things that matter to me."
+        },
+        {
+            "code": "ST305Q07JA",
+            "question": "I wait for others to take a lead."
+        },
+        {
+            "code": "ST305Q08JA",
+            "question": "I find it hard to influence people."
+        },
+        {
+            "code": "ST305Q09JA",
+            "question": "I want to be in charge."
+        },
+        {
+            "code": "ST305Q10JA",
+            "question": "I like to be a leader in my class."
+        }
+    ],
+    "Emotional Control": [
+        {
+            "code": "ST313Q01JA",
+            "question": "I keep my emotions under control."
+        },
+        {
+            "code": "ST313Q02JA",
+            "question": "I get mad easily."
+        },
+        {
+            "code": "ST313Q03JA",
+            "question": "I change my mood a lot."
+        },
+        {
+            "code": "ST313Q04JA",
+            "question": "I overreact to every little thing in life."
+        },
+        {
+            "code": "ST313Q05JA",
+            "question": "I stay calm even in tense situations."
+        },
+        {
+            "code": "ST313Q06JA",
+            "question": "I am easily upset."
+        },
+        {
+            "code": "ST313Q07JA",
+            "question": "I know how to control my feelings."
+        },
+        {
+            "code": "ST313Q08JA",
+            "question": "I have unpredictable emotions."
+        },
+        {
+            "code": "ST313Q09JA",
+            "question": "I am moody."
+        },
+        {
+            "code": "ST313Q10JA",
+            "question": "I get frustrated quickly."
+        }
+    ]
+}
+  

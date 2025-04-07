@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/data/countries2.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <title>PISAlytics|Dashboard</title>
+    <style>
+        #chartdiv {
+          width: 100%;
+          height: 500px;
+        }
+
+        .page {
+            text-align: center;
+            display: none; /* All pages hidden by default */
+        }
+
+        .page:first-of-type {
+            display: block; /* Show the first page by default */
+        }
+
+        #pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #pagination button {
+            margin: 0 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <h2>PISA<span class="danger">lytics</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#dashboard" class="active">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#statistics">
+                    <span class="material-icons-sharp">
+                        bar_chart
+                    </span>
+                    <h3>Statistics</h3>
+                </a>
+                <a href="#metrics">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Metrics</h3>
+                </a>
+            </div>
+        </aside>
+
+        <main>
+            <div style="width: 100%;" id="metrics" class="content">
+                <h1>Metrics</h1>
+                <div id="chartdiv"></div>
+            </div>
+            <div id="statistics" class="content">
+                <div id="page1" class="page">
+                    <h1>Statistics - Page 1</h1>
+                    <canvas id="scieSCChart"></canvas>
+                </div>
+                <div id="page2" class="page" style="display:none;">
+                    <h1>Statistics - Page 2</h1>
+                    <canvas id="mathsSCChart"></canvas>
+                </div>
+                <div id="page3" class="page" style="display:none;">
+                    <h1>Statistics - Page 3</h1>
+                    <canvas id="scieASChart"></canvas>
+                </div>
+                <div id="page4" class="page" style="display:none;">
+                    <h1>Statistics - Page 4</h1>
+                    <canvas id="mathsASChart"></canvas>
+                </div>
+                <div id="page5" class="page" style="display:none;">
+                    <h1>Statistics - Page 5</h1>
+                    <canvas id="scieECChart"></canvas>
+                </div>
+                <div id="page6" class="page" style="display:none;">
+                    <h1>Statistics - Page 6</h1>
+                    <canvas id="mathsECChart"></canvas>
+                </div>
+            
+                <div id="pagination">
+                    <button id="button" onclick="showPage(1)">Page 1</button>
+                    <button id="button" onclick="showPage(2)">Page 2</button>
+                    <button id="button" onclick="showPage(3)">Page 3</button>
+                    <button id="button" onclick="showPage(4)">Page 4</button>
+                    <button style="margin-top: 10px;" id="button" onclick="showPage(5)">Page 5</button>
+                    <button id="button" onclick="showPage(6)">Page 6</button>
+                </div>
+                <script>
+                    function showPage(pageNumber) {
+                        document.querySelectorAll('.page').forEach(function(page) {
+                            page.style.display = 'none';
+                        });
+
+                        document.getElementById('page' + pageNumber).style.display = 'block';
+                    }
+
+                    showPage(1);
+
+                </script>
+            </div>            
+            
+            <div id="dashboard" class="content" style="display:none;">
+                <h1>Dashboard</h1>
+                <div class="analyse">
+                    <div class="sales">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Total Rows</h3>
+                                <h1 style="margin-left: 8px; margin-top: 5px;">673,456</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visits">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Total Countries</h3>
+                                <h1 style="margin-left: 8px; margin-top: 5px;">79</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="searches">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Total columns</h3>
+                                <h1 style="margin-left: 8px; margin-top: 5px;">1279</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 50px;" class="pisa-scores">
+                    <h2>Pisa Data</h2>
+                    <div style="overflow-x: hidden;" class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Country</th>
+                                    <th>OverallPisaScore2022</th>
+                                    <th>PISAScoresMathScore2022</th>
+                                    <th>PISAScoresScienceScore2022</th>
+                                    <th>PISAScoresReadingScore2022</th>
+                                    <th>PISAScoresOverallScore2018</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <a href="#" id="show-all">Show All</a>
+                </div>                
+            </div>            
+        </main>
+
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../scripts/dashboard.js"></script>
+</body>
+
+</html>

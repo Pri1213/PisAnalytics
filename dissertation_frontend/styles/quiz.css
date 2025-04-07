@@ -1,0 +1,254 @@
+.slider-container {
+    margin-top: 20px;
+    width: 25%;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.slider {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.slider-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.slider-labels span {
+    position: relative;
+    flex: 1;
+    text-align: center; 
+}
+
+p {
+    margin-top: 50px;
+    font-size: 15px;
+    height: 2;
+}
+
+#introduction p {
+    font-size: 14px;
+    font-family: "Varela Round", sans-serif;
+    text-align: justify;
+}
+
+#questionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    text-align: center;
+}
+
+#questionCategory{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.content p {
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 2;
+}
+
+
+#titleContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    color: black;
+    font-size: 20px;
+}
+
+body{
+    font-family: "Varela Round", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.wrap {
+    margin-top: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnwrap{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 100px;
+}
+  
+#button, #nextButton, #submitButton {
+    width: 200px;
+    height: 45px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#button:hover, #nextButton:hover, #submitButton:hover {
+    background-color: #ff0065;
+    box-shadow: 0px 15px 20px #ff0065;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.slider-container {
+    margin-top: 20px;
+    width: 60%;
+    position: relative;
+    padding-bottom: 35px;
+    margin: 0 auto; 
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80%;
+    height: 8px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff0065 0%, #d3d3d3 0%);
+    outline: none;
+    transition: background 0.2s;
+    margin-bottom: 20px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px; /* Decreased width */
+    height: 15px; /* Decreased height */
+    border-radius: 50%;
+    background: #ff0065;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ff0065;
+    cursor: pointer;
+}
+
+.slider-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.slider-labels span {
+    flex: 1;
+    text-align: center;
+}
+
+.questionText{
+    padding-top: 20px;
+}
+
+.card{
+    background-color: white;
+    height: 230px;
+    margin: auto;
+    width: 50%;
+    border: 1.5px solid #ff0065;
+    padding: 10px;
+    padding: 70px 0;
+    text-align: center;
+    margin-top: 50px !important;
+}
+
+@media (max-width: 768px) {
+    .slider-container {
+        width: 80%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider-labels {
+        width: 100%;
+    }
+
+    .content p {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .card {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-container {
+        width: 90%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider-labels {
+        width: 100%;
+    }
+
+    .content p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    #button, #nextButton, #submitButton {
+        width: 150px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+  
+  
